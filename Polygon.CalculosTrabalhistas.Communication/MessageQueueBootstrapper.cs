@@ -1,10 +1,8 @@
 ﻿using Newtonsoft.Json;
 using Polygon.CalculosTrabalhistas.Application.CommandObjects;
-using Polygon.CalculosTrabalhistas.Application.Interface;
+using Polygon.CalculosTrabalhistas.Domain.Entities;
 using RabbitMQ.Client;
-using RabbitMQ.Client.Events;
 using System;
-using System.Collections.Generic;
 using System.Text;
 
 namespace Polygon.CalculosTrabalhistas.Communication
@@ -26,7 +24,7 @@ namespace Polygon.CalculosTrabalhistas.Communication
             };
         }
 
-        public string Consumir()
+        public CalcularSalarioCommand Consumir()
         {
             using (var conn = _connectionFactory.CreateConnection())
             using (var channel = conn.CreateModel())
@@ -40,16 +38,16 @@ namespace Polygon.CalculosTrabalhistas.Communication
                 var message = Encoding.UTF8.GetString(data.Body);
                 channel.BasicAck(data.DeliveryTag, false);
 
-                return message;
+                return JsonConvert.DeserializeObject<CalcularSalarioCommand>(message);
             }
         } 
 
-        public void Publicar(string message)
+        public void Publicar(Calculo message)
         {
             using (var conn = _connectionFactory.CreateConnection())
             using (var channel = conn.CreateModel())
             {
-                var data = Encoding.UTF8.GetBytes(message);
+                var data = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message));
                 channel.QueueDeclare(FILA_PROCESSADOS, true, false, false, null);
                 channel.BasicPublish("", FILA_PROCESSADOS, null, data);
             }

@@ -14,12 +14,13 @@ namespace Polygon.CalculosTrabalhistas.Application.Services
             _calculoRepository = calculoRepository;
         }
 
-        public void RealizarCalculo(CalcularSalarioCommand command)
+        public Calculo RealizarCalculo(CalcularSalarioCommand command)
         {
             Funcionario funcionario = new Funcionario(command.MatriculaFuncionario, command.ValorHora);
             Calculo calculo = new Calculo(funcionario, command.HorasTrabalhadas);
 
             _calculoRepository.Salvar(calculo);
+            return calculo;
         }
     }
 }

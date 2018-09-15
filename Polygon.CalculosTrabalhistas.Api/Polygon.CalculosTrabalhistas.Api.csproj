@@ -17,4 +17,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Polygon.CalculosTrabalhistas.Application\Polygon.CalculosTrabalhistas.Application.csproj" />
+    <ProjectReference Include="..\Polygon.CalculosTrabalhistas.Communication\Polygon.CalculosTrabalhistas.Communication.csproj" />
+    <ProjectReference Include="..\Polygon.CalculosTrabalhistas.Ioc\Polygon.CalculosTrabalhistas.Ioc.csproj" />
+  </ItemGroup>
+
 </Project>
