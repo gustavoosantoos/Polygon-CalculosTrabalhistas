@@ -23,7 +23,7 @@ namespace Polygon.CalculosTrabalhistas.Communication.Workers
             _timer = new Timer(DoWork,
                 null,
                 TimeSpan.Zero,
-                TimeSpan.FromSeconds(5));
+                TimeSpan.FromSeconds(60));
 
             return Task.CompletedTask;
         }
