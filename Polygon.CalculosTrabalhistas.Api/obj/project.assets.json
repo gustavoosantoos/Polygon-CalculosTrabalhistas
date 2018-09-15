@@ -11546,11 +11546,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\DotNet\\Polygon-CalculosTrabalhistas\\Polygon-CalculosTrabalhistas\\Polygon.CalculosTrabalhistas.Api.csproj",
+      "projectUniqueName": "D:\\Projetos\\DotNet\\Polygon-CalculosTrabalhistas\\Polygon.CalculosTrabalhistas.Api\\Polygon.CalculosTrabalhistas.Api.csproj",
       "projectName": "Polygon.CalculosTrabalhistas.Api",
-      "projectPath": "D:\\Projetos\\DotNet\\Polygon-CalculosTrabalhistas\\Polygon-CalculosTrabalhistas\\Polygon.CalculosTrabalhistas.Api.csproj",
+      "projectPath": "D:\\Projetos\\DotNet\\Polygon-CalculosTrabalhistas\\Polygon.CalculosTrabalhistas.Api\\Polygon.CalculosTrabalhistas.Api.csproj",
       "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\DotNet\\Polygon-CalculosTrabalhistas\\Polygon-CalculosTrabalhistas\\obj\\",
+      "outputPath": "D:\\Projetos\\DotNet\\Polygon-CalculosTrabalhistas\\Polygon.CalculosTrabalhistas.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
