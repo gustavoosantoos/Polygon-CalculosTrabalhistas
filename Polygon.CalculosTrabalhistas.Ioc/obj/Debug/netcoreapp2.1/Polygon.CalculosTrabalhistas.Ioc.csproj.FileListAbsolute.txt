@@ -6,3 +6,4 @@ D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Ioc
 D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Ioc\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Ioc.AssemblyInfo.cs
 D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Ioc\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Ioc.dll
 D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Ioc\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Ioc.pdb
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Ioc\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Ioc.csprojAssemblyReference.cache

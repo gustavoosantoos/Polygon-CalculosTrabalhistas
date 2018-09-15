@@ -1,0 +1,9 @@
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Communication\bin\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Communication.deps.json
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Communication\bin\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Communication.dll
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Communication\bin\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Communication.pdb
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Communication\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Communication.csprojAssemblyReference.cache
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Communication\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Communication.csproj.CoreCompileInputs.cache
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Communication\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Communication.AssemblyInfoInputs.cache
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Communication\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Communication.AssemblyInfo.cs
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Communication\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Communication.dll
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Communication\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Communication.pdb

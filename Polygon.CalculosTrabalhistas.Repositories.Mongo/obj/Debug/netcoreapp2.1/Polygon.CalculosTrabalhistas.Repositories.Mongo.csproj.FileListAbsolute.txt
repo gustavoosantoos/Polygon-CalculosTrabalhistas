@@ -1,0 +1,12 @@
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Repositories.Mongo\bin\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Repositories.Mongo.deps.json
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Repositories.Mongo\bin\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Repositories.Mongo.dll
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Repositories.Mongo\bin\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Repositories.Mongo.pdb
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Repositories.Mongo\bin\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Domain.dll
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Repositories.Mongo\bin\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Domain.pdb
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Repositories.Mongo\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Repositories.Mongo.csprojAssemblyReference.cache
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Repositories.Mongo\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Repositories.Mongo.csproj.CoreCompileInputs.cache
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Repositories.Mongo\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Repositories.Mongo.AssemblyInfoInputs.cache
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Repositories.Mongo\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Repositories.Mongo.AssemblyInfo.cs
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Repositories.Mongo\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Repositories.Mongo.csproj.CopyComplete
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Repositories.Mongo\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Repositories.Mongo.dll
+D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Repositories.Mongo\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Repositories.Mongo.pdb
