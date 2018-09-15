@@ -1,7 +1,9 @@
-﻿namespace Polygon.CalculosTrabalhistas.Application.Interface
+﻿using Polygon.CalculosTrabalhistas.Application.CommandObjects;
+
+namespace Polygon.CalculosTrabalhistas.Application.Interface
 {
     public interface ICalculoService
     {
-        void RealizarCalculo();
+        void RealizarCalculo(CalcularSalarioCommand command);
     }
 }
