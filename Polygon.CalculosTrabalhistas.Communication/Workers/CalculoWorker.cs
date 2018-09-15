@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.Hosting;
 using Polygon.CalculosTrabalhistas.Application.Interface;
-using Polygon.CalculosTrabalhistas.Communication;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
@@ -32,8 +31,11 @@ namespace Polygon.CalculosTrabalhistas.Communication.Workers
         private void DoWork(object state)
         {
             var command = _messageQueueManager.Consumir();
-            var calculo = _service.RealizarCalculo(command);
 
+            if (command == null)
+                return; 
+
+            var calculo = _service.RealizarCalculo(command);
             _messageQueueManager.Publicar(calculo);
         }
 
