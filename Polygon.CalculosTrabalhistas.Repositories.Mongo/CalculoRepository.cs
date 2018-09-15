@@ -2,8 +2,6 @@
 using Polygon.CalculosTrabalhistas.Domain.Repositories;
 using Polygon.CalculosTrabalhistas.Repositories.Raven.Context;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Polygon.CalculosTrabalhistas.Repositories.Mongo
 {

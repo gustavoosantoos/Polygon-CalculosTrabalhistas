@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Polygon.CalculosTrabalhistas.Domain.Entities
+﻿namespace Polygon.CalculosTrabalhistas.Domain.Entities
 {
     public class Calculo
     {
