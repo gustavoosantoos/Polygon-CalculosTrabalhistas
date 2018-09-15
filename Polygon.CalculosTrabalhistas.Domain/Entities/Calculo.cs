@@ -16,9 +16,9 @@ namespace Polygon.CalculosTrabalhistas.Domain.Entities
         public double HorasTrabalhadas { get; private set; }
 
         public double SalarioBruto => Funcionario.ValorHora * HorasTrabalhadas;
-        public double Inss { get; private set; }
-        public double ImpostoRenda { get; private set; }
-        public double SalarioLiquido => SalarioBruto - Inss - ImpostoRenda;
+        public double Inss => CalcularInss();
+        public double Irrf => CalcularIrrf();
+        public double SalarioLiquido => SalarioBruto - Inss - Irrf;
 
 
         private double CalcularInss()
@@ -40,6 +40,31 @@ namespace Polygon.CalculosTrabalhistas.Domain.Entities
                     return CalculaDesconto(11);
                 default:
                     return DescontoMaximoInss;
+            }
+        }
+
+        private double CalcularIrrf()
+        {
+            double baseDeCalculo = SalarioBruto - Inss;
+            (double percentual, double valorFixo) = calcularFaixaDePercentual(baseDeCalculo);
+
+            return ((baseDeCalculo / 100.0) * percentual) - valorFixo;
+        }
+
+        private (double percentual, double valorFixo) calcularFaixaDePercentual(double baseDeCalculo)
+        {
+            switch (baseDeCalculo)
+            {
+                case double valor when valor < 1903.99:
+                    return (0, 0);
+                case double valor when valor <= 2826.65:
+                    return (7.5, 142.80);
+                case double valor when valor <= 3751.05:
+                    return (15, 354.80);
+                case double valor when valor <= 4664.68:
+                    return (22.5, 636.13);
+                default:
+                    return (27.5, 869.36);
             }
         }
     }
