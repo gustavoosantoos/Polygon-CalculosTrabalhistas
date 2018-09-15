@@ -1,5 +1,6 @@
 ﻿using Polygon.CalculosTrabalhistas.Domain.Entities;
 using Polygon.CalculosTrabalhistas.Domain.Repositories;
+using Polygon.CalculosTrabalhistas.Repositories.Raven.Context;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -12,8 +13,11 @@ namespace Polygon.CalculosTrabalhistas.Repositories.Mongo
 
         public void Salvar(Calculo calculo)
         {
-            OnSalvarCalculo?.Invoke(this, null);
-            throw new NotImplementedException();
+            using (var session = PolygonContext.Instance.OpenSession())
+            {
+                session.Store(calculo);
+                OnSalvarCalculo?.Invoke(this, null);
+            }
         }
     }
 }

@@ -9,7 +9,7 @@ namespace Polygon.CalculosTrabalhistas.Repositories.Raven.Context
     {
         private static Lazy<IDocumentStore> store = new Lazy<IDocumentStore>(CreateStore);
 
-        public static IDocumentStore Store
+        public static IDocumentStore Instance
         {
             get { return store.Value; }
         }
@@ -18,7 +18,7 @@ namespace Polygon.CalculosTrabalhistas.Repositories.Raven.Context
         {
             IDocumentStore store = new DocumentStore()
             {
-                Urls = new string [] { "http://localhost:9001" },
+                Urls = new [] { "http://localhost:9001" },
                 Database = "Polygon"
             }.Initialize();
 

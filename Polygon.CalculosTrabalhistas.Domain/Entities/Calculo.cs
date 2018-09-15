@@ -12,6 +12,8 @@ namespace Polygon.CalculosTrabalhistas.Domain.Entities
             HorasTrabalhadas = horasTrabalhadas;
         }
 
+        public string Id { get; set; }
+
         public Funcionario Funcionario { get; private set; }
         public double HorasTrabalhadas { get; private set; }
 
