@@ -11,7 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Appl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Shared", "3 - Shared", "{BA869967-5765-4DC5-9ED0-1770B060AC3A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{DD7FB548-2DB2-4245-BEFE-ACA7AD60BA20}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{DD7FB548-2DB2-4245-BEFE-ACA7AD60BA20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polygon.CalculosTrabalhistas.Domain", "Polygon.CalculosTrabalhistas.Domain\Polygon.CalculosTrabalhistas.Domain.csproj", "{1747899D-7C6E-43E0-AC4D-B7098454BBBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polygon.CalculosTrabalhistas.Application", "Polygon.CalculosTrabalhistas.Application\Polygon.CalculosTrabalhistas.Application.csproj", "{4C84DF99-E026-4E4E-97B0-83CA5D6193EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polygon.CalculosTrabalhistas.Ioc", "Polygon.CalculosTrabalhistas.Ioc\Polygon.CalculosTrabalhistas.Ioc.csproj", "{5D2B63CA-A305-44B5-B2D3-D0FC50FCD33A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +29,27 @@ Global
 		{6449EA04-3B2D-49B8-9649-BEE49AA8BE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6449EA04-3B2D-49B8-9649-BEE49AA8BE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6449EA04-3B2D-49B8-9649-BEE49AA8BE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1747899D-7C6E-43E0-AC4D-B7098454BBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1747899D-7C6E-43E0-AC4D-B7098454BBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1747899D-7C6E-43E0-AC4D-B7098454BBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1747899D-7C6E-43E0-AC4D-B7098454BBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C84DF99-E026-4E4E-97B0-83CA5D6193EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C84DF99-E026-4E4E-97B0-83CA5D6193EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C84DF99-E026-4E4E-97B0-83CA5D6193EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C84DF99-E026-4E4E-97B0-83CA5D6193EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2B63CA-A305-44B5-B2D3-D0FC50FCD33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2B63CA-A305-44B5-B2D3-D0FC50FCD33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2B63CA-A305-44B5-B2D3-D0FC50FCD33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2B63CA-A305-44B5-B2D3-D0FC50FCD33A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6449EA04-3B2D-49B8-9649-BEE49AA8BE76} = {5D9364CF-5361-4AEA-AA6A-3DDEFF96E525}
+		{1747899D-7C6E-43E0-AC4D-B7098454BBBD} = {BA869967-5765-4DC5-9ED0-1770B060AC3A}
+		{4C84DF99-E026-4E4E-97B0-83CA5D6193EA} = {EB15EE8B-A362-4D20-97E1-BCC5BF42638F}
+		{5D2B63CA-A305-44B5-B2D3-D0FC50FCD33A} = {DD7FB548-2DB2-4245-BEFE-ACA7AD60BA20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6AEFF801-A10F-4096-B15E-EEDCC9445CED}
