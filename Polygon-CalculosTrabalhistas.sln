@@ -13,15 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Shared", "3 - Shared", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{DD7FB548-2DB2-4245-BEFE-ACA7AD60BA20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polygon.CalculosTrabalhistas.Domain", "Polygon.CalculosTrabalhistas.Domain\Polygon.CalculosTrabalhistas.Domain.csproj", "{1747899D-7C6E-43E0-AC4D-B7098454BBBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polygon.CalculosTrabalhistas.Domain", "Polygon.CalculosTrabalhistas.Domain\Polygon.CalculosTrabalhistas.Domain.csproj", "{1747899D-7C6E-43E0-AC4D-B7098454BBBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polygon.CalculosTrabalhistas.Application", "Polygon.CalculosTrabalhistas.Application\Polygon.CalculosTrabalhistas.Application.csproj", "{4C84DF99-E026-4E4E-97B0-83CA5D6193EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polygon.CalculosTrabalhistas.Application", "Polygon.CalculosTrabalhistas.Application\Polygon.CalculosTrabalhistas.Application.csproj", "{4C84DF99-E026-4E4E-97B0-83CA5D6193EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polygon.CalculosTrabalhistas.Ioc", "Polygon.CalculosTrabalhistas.Ioc\Polygon.CalculosTrabalhistas.Ioc.csproj", "{5D2B63CA-A305-44B5-B2D3-D0FC50FCD33A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polygon.CalculosTrabalhistas.Ioc", "Polygon.CalculosTrabalhistas.Ioc\Polygon.CalculosTrabalhistas.Ioc.csproj", "{5D2B63CA-A305-44B5-B2D3-D0FC50FCD33A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polygon.CalculosTrabalhistas.Repositories.Mongo", "Polygon.CalculosTrabalhistas.Repositories.Mongo\Polygon.CalculosTrabalhistas.Repositories.Mongo.csproj", "{DBC4CFA1-6F74-46E7-9AF5-A186BDF3BBDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polygon.CalculosTrabalhistas.Repositories.Raven", "Polygon.CalculosTrabalhistas.Repositories.Mongo\Polygon.CalculosTrabalhistas.Repositories.Raven.csproj", "{DBC4CFA1-6F74-46E7-9AF5-A186BDF3BBDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polygon.CalculosTrabalhistas.Communication", "Polygon.CalculosTrabalhistas.Communication\Polygon.CalculosTrabalhistas.Communication.csproj", "{CCB634C2-2FDF-45FD-95CD-BE0B8BE21C9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polygon.CalculosTrabalhistas.Communication", "Polygon.CalculosTrabalhistas.Communication\Polygon.CalculosTrabalhistas.Communication.csproj", "{CCB634C2-2FDF-45FD-95CD-BE0B8BE21C9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
