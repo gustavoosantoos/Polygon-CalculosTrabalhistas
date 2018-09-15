@@ -1,9 +1,0 @@
-D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Application\bin\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Application.deps.json
-D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Application\bin\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Application.dll
-D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Application\bin\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Application.pdb
-D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Application\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Application.csproj.CoreCompileInputs.cache
-D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Application\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Application.AssemblyInfoInputs.cache
-D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Application\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Application.AssemblyInfo.cs
-D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Application\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Application.dll
-D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Application\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Application.pdb
-D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon.CalculosTrabalhistas.Application\obj\Debug\netcoreapp2.1\Polygon.CalculosTrabalhistas.Application.csprojAssemblyReference.cache

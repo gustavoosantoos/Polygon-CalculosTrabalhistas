@@ -1,3 +1,0 @@
-D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon-CalculosTrabalhistas\obj\Debug\netcoreapp2.1\Polygon-CalculosTrabalhistas.csproj.CoreCompileInputs.cache
-D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon-CalculosTrabalhistas\obj\Debug\netcoreapp2.1\Polygon-CalculosTrabalhistas.AssemblyInfoInputs.cache
-D:\Projetos\DotNet\Polygon-CalculosTrabalhistas\Polygon-CalculosTrabalhistas\obj\Debug\netcoreapp2.1\Polygon-CalculosTrabalhistas.AssemblyInfo.cs
