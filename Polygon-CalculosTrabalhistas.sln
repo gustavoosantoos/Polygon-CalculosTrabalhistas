@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polygon.CalculosTrabalhistas.Api", "Polygon.CalculosTrabalhistas.Api\Polygon.CalculosTrabalhistas.Api.csproj", "{6449EA04-3B2D-49B8-9649-BEE49AA8BE76}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Api", "1 - Api", "{5D9364CF-5361-4AEA-AA6A-3DDEFF96E525}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Entrypoints", "1 - Entrypoints", "{5D9364CF-5361-4AEA-AA6A-3DDEFF96E525}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{EB15EE8B-A362-4D20-97E1-BCC5BF42638F}"
 EndProject
