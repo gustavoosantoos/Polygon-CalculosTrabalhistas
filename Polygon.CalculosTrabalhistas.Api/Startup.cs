@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Polygon.CalculosTrabalhistas.Api.Configuration;
 
 namespace Polygon_CalculosTrabalhistas
 {
@@ -22,13 +23,12 @@ namespace Polygon_CalculosTrabalhistas
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddSwagger();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
@@ -42,6 +42,7 @@ namespace Polygon_CalculosTrabalhistas
 
             app.UseHttpsRedirection();
             app.UseMvc();
+            app.ConfigSwagger();
         }
     }
 }
