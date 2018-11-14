@@ -6,15 +6,10 @@ namespace Polygon.CalculosTrabalhistas.Application.CommandObjects
 {
     public class CalcularSalarioCommand
     {
-        public CalcularSalarioCommand(int matriculaFuncionario, double valorHora, double horasTrabalhadas)
-        {
-            MatriculaFuncionario = matriculaFuncionario;
-            ValorHora = valorHora;
-            HorasTrabalhadas = horasTrabalhadas;
-        }
-
-        public int MatriculaFuncionario { get; private set; }
-        public double ValorHora { get; private set; }
-        public double HorasTrabalhadas { get; private set; }
+        public int MatriculaFuncionario { get; set; }
+        public double ValorHora { get; set; }
+        public double HorasTrabalhadas { get; set; }
+        public double HorasComPericulosidade { get; set; }
+        public string NumeroCartao { get; set; }
     }
 }

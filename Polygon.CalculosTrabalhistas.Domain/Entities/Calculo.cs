@@ -2,22 +2,24 @@
 {
     public class Calculo
     {
-        public Calculo(Funcionario funcionario, double horasTrabalhadas)
+        public Calculo(Funcionario funcionario, double horasTrabalhadas, double horasComPericulosidade = default)
         {
             Funcionario = funcionario;
             HorasTrabalhadas = horasTrabalhadas;
+            HorasComPericulosidadeAlta = horasComPericulosidade;
         }
 
         public string Id { get; set; }
 
         public Funcionario Funcionario { get; private set; }
         public double HorasTrabalhadas { get; private set; }
+        public double HorasComPericulosidadeAlta { get; private set; }
 
         public double SalarioBruto => Funcionario.ValorHora * HorasTrabalhadas;
+        public double AdicionalPericulosidade => Funcionario.ValorHora * HorasComPericulosidadeAlta;
         public double Inss => CalcularInss();
         public double Irrf => CalcularIrrf();
-        public double SalarioLiquido => SalarioBruto - Inss - Irrf;
-
+        public double SalarioLiquido => SalarioBruto + AdicionalPericulosidade - Inss - Irrf;
 
         private double CalcularInss()
         {
@@ -44,12 +46,12 @@
         private double CalcularIrrf()
         {
             double baseDeCalculo = SalarioBruto - Inss;
-            (double percentual, double valorFixo) = calcularFaixaDePercentual(baseDeCalculo);
+            (double percentual, double valorFixo) = CalcularFaixaDePercentual(baseDeCalculo);
 
             return ((baseDeCalculo / 100.0) * percentual) - valorFixo;
         }
 
-        private (double percentual, double valorFixo) calcularFaixaDePercentual(double baseDeCalculo)
+        private (double percentual, double valorFixo) CalcularFaixaDePercentual(double baseDeCalculo)
         {
             switch (baseDeCalculo)
             {

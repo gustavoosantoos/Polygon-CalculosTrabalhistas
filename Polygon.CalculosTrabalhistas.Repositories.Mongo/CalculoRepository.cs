@@ -14,6 +14,7 @@ namespace Polygon.CalculosTrabalhistas.Repositories.Mongo
             using (var session = PolygonContext.Instance.OpenSession())
             {
                 session.Store(calculo);
+                session.SaveChanges();
                 OnSalvarCalculo?.Invoke(this, null);
             }
         }

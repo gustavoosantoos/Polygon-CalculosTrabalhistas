@@ -17,7 +17,7 @@ namespace Polygon.CalculosTrabalhistas.Application.Services
         public Calculo RealizarCalculo(CalcularSalarioCommand command)
         {
             Funcionario funcionario = new Funcionario(command.MatriculaFuncionario, command.ValorHora);
-            Calculo calculo = new Calculo(funcionario, command.HorasTrabalhadas);
+            Calculo calculo = new Calculo(funcionario, command.HorasTrabalhadas, command.HorasComPericulosidade);
 
             _calculoRepository.Salvar(calculo);
             return calculo;

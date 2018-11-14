@@ -12,6 +12,7 @@ namespace Polygon.CalculosTrabalhistas.Ioc
         public static void AddIocApplication(this IServiceCollection services)
         {
             services.AddTransient<ICalculoService, CalculoService>();
+            services.AddTransient<IPeriodoPericulosidadeService, PeridoPericulosidadeService>();
         }
     }
 }
